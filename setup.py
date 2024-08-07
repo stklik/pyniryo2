@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 version = '1.0.0'
 
-SETUPTOOLS = "setuptools~=46.0.0"
+SETUPTOOLS = "setuptools>=46.0.0"
 TEST_REQUIRES = ['coverage', 'pytest']
 
 with open('README.rst', 'r', encoding='utf-8') as f:
